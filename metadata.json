@@ -1,0 +1,7 @@
+{
+  "name": "Centralizando - Plataforma para Barbeiros",
+  "description": "Uma plataforma completa para barbeiros modernizarem seus negócios com agendamento online, sites personalizados e notificações via WhatsApp.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
