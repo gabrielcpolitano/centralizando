@@ -19,59 +19,32 @@ export const Pricing: React.FC = () => {
               <span className="text-4xl font-bold text-slate-900">R$ 49</span>
               <span className="text-slate-500">/mês</span>
             </div>
-            <ul className="space-y-4 mb-10 flex-grow">
-              <li className="flex items-center gap-2 text-sm text-slate-600">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Agenda Online Exclusiva
-              </li>
-              <li className="flex items-center gap-2 text-sm text-slate-600">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Até 200 Agendamentos/mês
-              </li>
-              <li className="flex items-center gap-2 text-sm text-slate-600">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Site Padrão Personalizável
-              </li>
+            <ul className="space-y-4 mb-10 flex-grow text-sm text-slate-600">
+              <li className="flex items-center gap-2 font-medium">✓ Agenda Online Exclusiva</li>
+              <li className="flex items-center gap-2 font-medium">✓ Até 200 Agendamentos/mês</li>
+              <li className="flex items-center gap-2 font-medium">✓ Site Padrão Personalizável</li>
             </ul>
-            <a 
-              href="#contact"
-              className="w-full py-4 text-center rounded-xl border-2 border-slate-200 font-bold hover:bg-slate-50 transition-colors"
-            >
-              Começar Plano
+            <a href="#contact" className="w-full py-4 text-center rounded-xl border-2 border-slate-200 font-bold hover:bg-slate-50 transition-colors">
+              Começar Agora
             </a>
           </div>
           
           {/* Plan 2 - Featured */}
-          <div className="bg-slate-900 p-10 rounded-3xl relative text-white shadow-2xl scale-105 flex flex-col z-10">
+          <div className="bg-slate-900 p-10 rounded-3xl relative text-white shadow-2xl scale-105 flex flex-col z-10 border-4 border-red-600/20">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-red-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Mais Popular</div>
             <h4 className="text-xl font-bold mb-2">Profissional</h4>
             <div className="flex items-baseline gap-1 mb-6">
               <span className="text-4xl font-bold">R$ 89</span>
               <span className="text-slate-400">/mês</span>
             </div>
-            <ul className="space-y-4 mb-10 flex-grow">
-              <li className="flex items-center gap-2 text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-red-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Agenda Ilimitada
-              </li>
-              <li className="flex items-center gap-2 text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-red-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Notificações WhatsApp inclusas
-              </li>
-              <li className="flex items-center gap-2 text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-red-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Site com Sua História & Fotos
-              </li>
-              <li className="flex items-center gap-2 text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-red-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Suporte Prioritário
-              </li>
+            <ul className="space-y-4 mb-10 flex-grow text-sm">
+              <li className="flex items-center gap-2 font-medium">✓ Agenda Ilimitada</li>
+              <li className="flex items-center gap-2 font-medium">✓ Notificações WhatsApp inclusas</li>
+              <li className="flex items-center gap-2 font-medium">✓ Site com Sua História & Fotos</li>
+              <li className="flex items-center gap-2 font-medium">✓ Suporte Prioritário</li>
             </ul>
-            <a 
-              href="#contact"
-              className="w-full py-4 text-center rounded-xl bg-red-600 font-bold hover:bg-red-700 transition-colors shadow-xl shadow-red-900/40"
-            >
-              Assinar Agora
+            <a href="#contact" className="w-full py-4 text-center rounded-xl bg-red-600 font-bold hover:bg-red-700 transition-colors shadow-xl">
+              Assinar Plano
             </a>
           </div>
           
@@ -82,25 +55,13 @@ export const Pricing: React.FC = () => {
               <span className="text-4xl font-bold text-slate-900">R$ 149</span>
               <span className="text-slate-500">/mês</span>
             </div>
-            <ul className="space-y-4 mb-10 flex-grow">
-              <li className="flex items-center gap-2 text-sm text-slate-600">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Tudo do Plano Profissional
-              </li>
-              <li className="flex items-center gap-2 text-sm text-slate-600">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Até 10 Barbeiros na mesma agenda
-              </li>
-              <li className="flex items-center gap-2 text-sm text-slate-600">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-500"><path d="M20 6 9 17l-5-5"/></svg>
-                Dashboard de Comissão e Vendas
-              </li>
+            <ul className="space-y-4 mb-10 flex-grow text-sm text-slate-600">
+              <li className="flex items-center gap-2 font-medium">✓ Tudo do Profissional</li>
+              <li className="flex items-center gap-2 font-medium">✓ Até 10 Barbeiros</li>
+              <li className="flex items-center gap-2 font-medium">✓ Gestão de Comissões</li>
             </ul>
-            <a 
-              href="#contact"
-              className="w-full py-4 text-center rounded-xl border-2 border-slate-200 font-bold hover:bg-slate-50 transition-colors"
-            >
-              Entrar em Contato
+            <a href="#contact" className="w-full py-4 text-center rounded-xl border-2 border-slate-200 font-bold hover:bg-slate-50 transition-colors">
+              Falar com Vendas
             </a>
           </div>
         </div>
