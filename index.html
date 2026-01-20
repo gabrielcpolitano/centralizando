@@ -17,12 +17,11 @@
       html {
         scroll-behavior: smooth;
       }
-      /* Previne saltos de layout durante o scroll */
       section {
         scroll-margin-top: 80px;
       }
     </style>
-  <script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@19.0.0",
@@ -34,8 +33,9 @@
   }
 }
 </script>
-</head>
+  </head>
   <body class="bg-white text-slate-900">
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
   </body>
 </html>
